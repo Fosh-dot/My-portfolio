@@ -23,8 +23,8 @@ export default function Hero() {
       </motion.p>
 
       <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
-        <a href="/CHUKWUEMEKA FORTUNE CV.pdf" download>
-          <button className="btn">Download CV</button>
+        <a href="/CHUKWUEMEKA FORTUNE CV.pdf">
+          <button className="btn">Resume</button>
         </a>
       </motion.button>
     </section>
