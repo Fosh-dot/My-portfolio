@@ -1,27 +1,38 @@
 import "../styles/about.css";
-import { motion } from "framer-motion";
 
 export default function About() {
   return (
     <section id="about" className="about">
-      <motion.h2
-        initial={{ opacity: 0, x: -40 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.6 }}
-        viewport={{ once: true }}
-      >
-        About Me
-      </motion.h2>
+      <h2>About Me</h2>
 
-      <motion.p
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ delay: 0.3 }}
-        viewport={{ once: true }}
-      >
-        I'm a frontend developer focused on building responsive and modern web
-        applications using React.
-      </motion.p>
+      <div className="about-content">
+        <p>
+          I'm a frontend developer focused on building modern, responsive
+          websites using React and JavaScript.
+        </p>
+
+        <p>
+          I enjoy turning ideas into real-world projects and continuously
+          improving my skills by building and experimenting.
+        </p>
+
+        <div className="about-cards">
+          <div>
+            <h3>Projects</h3>
+            <p>2+ Completed</p>
+          </div>
+
+          <div>
+            <h3>Focus</h3>
+            <p>Frontend Development</p>
+          </div>
+
+          <div>
+            <h3>Tools</h3>
+            <p>React, JS, CSS</p>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }

@@ -9,8 +9,8 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        Frontend Developer <br />
-        <span>Building Modern Web Experiences</span>
+        I Build Fast, Modern <br />
+        <span>Web Experiences That Convert</span>
       </motion.h1>
 
       <motion.p
@@ -18,11 +18,14 @@ export default function Hero() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5 }}
       >
-        I create responsive, user-friendly websites using React and JavaScript.
+        Frontend developer specializing in helping businesses and individuals
+        create responsive, high-performing websites.
       </motion.p>
 
       <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
-        View Projects
+        <a href="/CHUKWUEMEKA FORTUNE CV.pdf" download>
+          <button className="btn">Download CV</button>
+        </a>
       </motion.button>
     </section>
   );

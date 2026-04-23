@@ -9,7 +9,7 @@ const projects = [
     github: "#",
   },
   {
-    title: "Landing Page",
+    title: "E-commerce Website",
     description: "Responsive business landing page.",
     live: "#",
     github: "#",

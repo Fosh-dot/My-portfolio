@@ -1,9 +1,23 @@
-.about h2 {
-  font-size: 2rem;
+.about-content {
+  margin-top: 20px;
+  max-width: 700px;
 }
 
 .about p {
-  margin-top: 10px;
-  color: #bbb;
-  max-width: 600px;
+  color: var(--text-light);
+  margin-bottom: 10px;
+}
+
+.about-cards {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.about-cards div {
+  background: var(--card-bg);
+  padding: 15px;
+  border-radius: 8px;
+  flex: 1;
+  border: 1px solid #eee;
 }

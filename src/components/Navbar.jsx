@@ -3,7 +3,7 @@ import "../styles/navbar.css";
 export default function Navbar() {
   return (
     <nav className="navbar">
-      <h2 className="logo">Fosh</h2>
+      <h2 className="logo">Tech Chic</h2>
 
       <ul>
         <li>
