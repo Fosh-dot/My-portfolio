@@ -15,6 +15,11 @@ export default function About() {
           I enjoy turning ideas into real-world projects and continuously
           improving my skills by building and experimenting.
         </p>
+        <p>
+          I'm currently expanding my skills into backend development as I work
+          towards becoming a full-stack developer, with a goal of building
+          complete, scalable web applications.
+        </p>
 
         <div className="about-cards">
           <div>

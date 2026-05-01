@@ -24,6 +24,7 @@
 .navbar a {
   text-decoration: none;
   color: #283618;
+  transition: 0.3s;
 }
 .navbar a:hover {
   color: #bc6c25;
