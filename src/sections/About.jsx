@@ -19,7 +19,7 @@ export default function About() {
         <div className="about-cards">
           <div>
             <h3>Projects</h3>
-            <p>2+ Completed</p>
+            <p>5+ Completed</p>
           </div>
 
           <div>

@@ -1,9 +1,19 @@
-.project-card img {
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 10px;
+.projects {
+  color: #283618;
 }
 
 .project-card {
-  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.links a {
+  color: #bc6c25;
 }

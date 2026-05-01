@@ -22,11 +22,9 @@ export default function Hero() {
         create responsive, high-performing websites.
       </motion.p>
 
-      <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
-        <a href="/CHUKWUEMEKA FORTUNE CV.pdf" download>
-          <button className="btn">Download CV</button>
-        </a>
-      </motion.button>
+      <motion.a href="/CHUKWUEMEKA FORTUNE CV.pdf" className="btn-link">
+        Download Cv
+      </motion.a>
     </section>
   );
 }
