@@ -9,8 +9,8 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        I Build Fast, Modern <br />
-        <span>Web Experiences That Convert</span>
+        I Design & Build, <br />
+        <span>Modern Websites That Drive Results</span>
       </motion.h1>
 
       <motion.p
@@ -18,9 +18,11 @@ export default function Hero() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5 }}
       >
-        Frontend developer specializing in helping businesses and individuals
-        create responsive, high-performing websites.
+        Frontend developer skilled in React, focused on creating responsive,
+        high-performing websites. Currently expanding into full-stack
+        development.
       </motion.p>
+      <p>Built multiple responsive web projects using React and modern CSS.</p>
 
       <motion.a href="/CHUKWUEMEKA FORTUNE CV.pdf" className="btn-link">
         Download Cv

@@ -20,6 +20,10 @@ export default function About() {
           towards becoming a full-stack developer, with a goal of building
           complete, scalable web applications.
         </p>
+        <p>
+          I have worked on multiple frontend projects, focusing on performance,
+          responsiveness, and clean UI design.
+        </p>
 
         <div className="about-cards">
           <div>
